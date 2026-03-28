@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url(../assets/fonts/Aileron/Aileron-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url(../assets/fonts/Aileron/Aileron-Black.otf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 160px;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.253);
+    backdrop-filter: blur(15px);
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    padding-left: 20px;
+    width: 100%;
+}
+
+
+#nav-links {
+    display: flex;
+    gap: 100px;
+    
+}
+
+#nav-links a{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: url(../assets/imgs/main-background.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+
+#special-text {
+    font-family: 'Aileron';
+    font-weight: 900;
+    font-style: italic;
+    font-size: 15em;
+}
+
+
+#green {
+    color: #00933F;
+}
+
+
+#white {
+    color: #fff;
+}
+
+
+#red {
+    color: #F22637;
+}
+
+
+p {
+    font-family: 'Montserrat';
+}
+
