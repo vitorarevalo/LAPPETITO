@@ -6,12 +6,17 @@
 }
 
 @font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(../assets/fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
     font-family: 'Aileron';
     src: url(../assets/fonts/Aileron/Aileron-Regular.otf);
 }
 
 @font-face {
-    font-family: 'Aileron';
+    font-family: 'Aileron-Black';
     src: url(../assets/fonts/Aileron/Aileron-Black.otf);
 }
 
@@ -115,7 +120,7 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -80%);
-    font-family: 'Aileron';
+    font-family: 'Aileron-Black';
     font-weight: 900;
     font-style: italic;
     font-size: 15em;
@@ -197,7 +202,87 @@ main {
     background-color: #fff;
 }
 
-p {
-    font-family: 'Montserrat';
+
+.border {
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+    width: 460px;
+    height: 370px;
+    
+    
+    border: 1px solid rgba(255, 255, 255, 0.4); 
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+
+#dish-description {
+    text-align: justify;
+    font-size: 1.3em;
+    font-family: 'Montserrat';
+    color: white;
+    padding: 25px;
+    margin: 0;
+    transition: 0.5s;
+}
+
+.border::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px; 
+    top: -5%;
+    left: -5%;
+    
+    border-style: solid;
+    border-color: white;
+    border-width: 5px 0 0 5px;
+}
+
+.border::after {
+    content: '';
+    position: absolute;
+    width: 40px; 
+    height: 40px; 
+    bottom: -5%;
+    right: -5%; 
+    
+    border-style: solid;
+    border-color: white;
+    border-width: 0 5px 5px 0;
+}
+
+
+#knowMoreBtn {
+    display: inline-block;
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
+    
+    background: none;
+    backdrop-filter: blur(4px);
+
+    font-family: 'Montserrat-Bold';
+    font-size: 3em;
+    font-weight: 100;
+    text-transform: uppercase;
+
+    z-index: 3;
+
+    color: #fff;
+    outline: none;
+    border: 10px solid white;
+    padding: 30px;
+    transition: 0.3s;
+}
+
+
+#knowMoreBtn:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
