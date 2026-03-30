@@ -25,6 +25,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body, html {
@@ -127,17 +128,17 @@ main {
 }
 
 
-#green {
+.green {
     color: #00933F;
 }
 
 
-#white {
+.white {
     color: #fff;
 }
 
 
-#red {
+.red {
     color: #F22637;
 }
 
@@ -291,6 +292,7 @@ main {
 
 
 #about-sect {
+    position: relative;
     width: 100vw;
     height: 100vh;
     background-color: #0F0F0F;
@@ -325,4 +327,79 @@ main {
     background-color: #F22637;
     width: 65px;
     height: 230px;
+}
+
+
+.huge-logo {
+    position: absolute;
+    left: 10%;
+    bottom: 15%;
+    width: 500px;
+}
+
+
+h1 {
+    font-family: 'Aileron';
+    font-size: 2.5em;
+    color: white;
+}
+
+h2 {
+    font-family: 'Aileron';
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.about-text {
+    font-family: 'Montserrat';
+    color: white;
+}
+
+
+.about-header {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* background-color: blue; */
+    width: 500px;
+    text-align: justify;
+}
+
+
+.about-container2 {
+    margin-left: 100px;
+}
+
+
+.about-container3 {
+    margin-left: 150px;
+}
+
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    /* background-color: red; */
+}
+
+
+.about-father-container {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    /* background-color: yellow; */
+    
 }
