@@ -215,6 +215,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 3;
 }
 
 
@@ -288,9 +289,40 @@ main {
 
 
 
+
 #about-sect {
     width: 100vw;
     height: 100vh;
     background-color: #0F0F0F;
     z-index: 5;
+}
+
+
+.italian-flag {
+    display: flex;
+    width: fit-content;
+    margin-left: 1%;
+    gap: 10px;
+}
+
+
+.green-flag {
+    clip-path: polygon(0 0, 100% 0, 100% 77%, 0% 100%);
+    background-color: #00933F;
+    width: 100px;
+    height: 410px;
+}
+
+.white-flag {
+    clip-path: polygon(0 0, 100% 0, 100% 77%, 0% 100%);
+    background-color: #fff;
+    width: 80px;
+    height: 310px;
+}
+
+.red-flag {
+    clip-path: polygon(0 0, 100% 0, 100% 77%, 0% 100%);
+    background-color: #F22637;
+    width: 65px;
+    height: 230px;
 }
