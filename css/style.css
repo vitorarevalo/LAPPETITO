@@ -262,6 +262,7 @@ main {
     position: absolute;
     bottom: 20%;
     right: 5%;
+    text-decoration: none;
     
     background: none;
     backdrop-filter: blur(4px);
