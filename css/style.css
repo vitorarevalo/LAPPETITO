@@ -454,7 +454,7 @@ h2 {
     pointer-events: none;
 }
 
-#menu-dish-description p {
+#menu-dish-description p.p-desc {
     text-align: justify;
     font-size: 1.1em;
     font-family: 'Montserrat';
@@ -501,7 +501,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
     position: absolute;
     bottom: 30px;
     left: 50%;
@@ -509,4 +509,20 @@ h2 {
     width: auto;
     height: 50px;
     z-index: 100;
+}
+
+
+#premium {
+    font-weight: bold;
+    display: none;
+    color: #CDA77D;
+}
+
+
+#premiumExclusive {
+    display: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    color: #CDA77D;
+    font-family: 'Aileron';
 }
