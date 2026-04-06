@@ -542,11 +542,9 @@ h2 {
 
 #about-chef-sect {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    
-    
-
+    gap: 2%;
     position: relative;
     width: 100vw;
     height: 100vh;
@@ -556,6 +554,11 @@ h2 {
 
 
 
+.chef-img {
+    width: 600px;
+}
+
+
 
 .about-chef-content {
     display: flex;
@@ -563,6 +566,53 @@ h2 {
     flex-direction: column;
     gap: 20px;
 
-    width: 600px;
-    background-color: red;
+    width: 900px;
+}
+
+
+.chef-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: red; */
+    /* background-color: #0F0F0F; */
+    gap: 0px;
+    width: 100%;
+}
+
+
+.chef-text p {
+    width: 90%;
+}
+
+
+
+#chef-text-content2 {
+    margin-left: 50px;
+}
+
+
+#chef-text-content3 {
+    margin-left: 100px;
+}
+
+
+.green-rect {
+    width: 10px;
+    height: 100px;
+    background-color: #00933F;
+}
+
+
+.white-rect {
+    width: 10px;
+    height: 100px;
+    background-color: #ffffff;
+}
+
+
+.red-rect {
+    width: 10px;
+    height: 100px;
+    background-color: #F22637;
 }
