@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(../assets/fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url(../assets/fonts/Aileron/Aileron-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Aileron-Black';
+    src: url(../assets/fonts/Aileron/Aileron-Black.otf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+
+p {
+    text-align: justify;
+    font-size: 1.1em;
+    font-family: 'Montserrat';
+    color: white;
+    margin: 0;
+    transition: 0.5s;
+}
+
+
+
+main {
+    display: block;
+    width: 100vw;
+    height: 100%;
+    
+}
+
+
+h1 {
+    font-family: 'Aileron';
+    font-size: 2.5em;
+    color: white;
+}
+
+h2 {
+    font-family: 'Aileron';
+    font-size: 1.5em;
+    font-weight: 500;
+    color: white;
+}
