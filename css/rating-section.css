@@ -1,12 +1,12 @@
 #rating-sect {
+    padding-top: 100px;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 30px;
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
     background-color: #171717;
     overflow: hidden;
 }
@@ -56,7 +56,7 @@
 .rating-bar {
     position: relative;
     width: 90%;
-    height: 40px;
+    height: 35px;
     border-radius: 35px;
     background-color: #535353;
 }
@@ -95,4 +95,63 @@
     height: 100%;
     background-color: #00933F;
     border-radius: 35px;
+}
+
+
+
+.depoiments-container {
+    display: flex;
+
+    width: 100%;
+    height: 40%;
+    background-color: red;
+}
+
+
+.depoiment-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    /* background-color: blue; */
+    width: 400px;
+    height: 100%;
+}
+
+.depoiment-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 20%;
+    background-color: #202020;
+    border-radius: 15px;
+}
+
+.depoiment-text {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 1.2em;
+    padding: 30px;
+    width: 100%;
+    height: 60%;
+    background-color: #202020;
+    border-radius: 15px;
+}
+
+
+.depoiment-rating {
+    position: absolute;
+    top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 1.2em;
 }
