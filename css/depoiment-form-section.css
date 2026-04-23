@@ -1,0 +1,159 @@
+#depoiment-form-sect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url(../assets/imgs/wood-background.png) no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+.depoiment-form-container {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    background-color: gray;
+    border-radius: 15px;
+}
+
+
+.form-first-sect {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+    padding: 30px;
+    width: 50%;
+    height: 100%;
+    background-color: #111;
+    border-radius: 15px 0 0 15px;
+}
+
+
+.form-logo {
+    width: 300px;
+}
+
+
+.mini-italian-flag {
+    position: relative;
+    width: 50px;
+    height: 8px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.green-square {
+    position: absolute;
+    left: 0;
+    width: 32%;
+    height: 100%;
+    background-color: #00933F;
+}
+
+.red-square {
+    position: absolute;
+    right: 0;
+    width: 32%;
+    height: 100%;
+    background-color: #F22637;
+}
+
+
+h1 span {
+    font-family: 'Trajan';
+    font-weight: 100;
+}
+
+.form-first-sect p {
+    text-align: center;
+}
+
+
+.form-sect {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 50%;
+    height: 100%;
+    border-radius: 0 15px 15px 0;
+    background-color: #1C1C1C;
+}
+
+
+#form-header-h1 {
+    font-weight: 400;
+    font-size: 2em;
+}
+
+
+form {
+    width: 100%;
+    height: 90%;
+    background-color: green;
+}
+
+
+fieldset {
+    height: 90px;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    padding: 0 10px 5px 10px;
+}
+
+
+legend {
+    color: #ffffff;
+    padding: 0 5px;
+    font-family: 'Montserrat';
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+
+.required {
+    color: red;
+    margin-left: 2px;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    color: white;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat';
+    font-size: 1em;
+}
+
+
+textarea {
+    width: 100%;
+    height: 300px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 0 5px;
+    font-family: 'Montserrat';
+    font-size: 1em;
+    font-weight: 600;
+    background: none;
+}
+
+
+.textarea-fieldset {
+    height: 300px;
+}
+
+.rate {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+
