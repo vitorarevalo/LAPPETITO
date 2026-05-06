@@ -1,0 +1,176 @@
+#cards-sect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0F0F0F;
+}
+
+
+#cards-sect .italian-flag {
+    z-index: 10;
+}
+
+
+.sub-card {
+    transform: translateY(50px);
+}
+
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 500px;
+    height: 800px;
+    padding: 30px;
+    background-color: #1C1C1C;
+    border-radius: 30px;
+}
+
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+}
+
+
+.card-header span {
+    font-size: 1em;
+    font-family: 'Montserrat-Bold';
+    color: white;
+    background-color: #00933F;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+.card h3 {
+    font-size: 2em;
+    font-weight: 100;
+    font-family: 'Trajan';
+    color: white;
+}
+
+.price {
+    font-size: 2em;
+    font-family: 'Montserrat-Bold';
+    color: #00933F;
+}
+
+.features-container {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+
+.reservation-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #00933F;
+    font-size: 1.5em;
+    font-family: 'Montserrat-Bold';
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+.reservation-btn:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+    background-color: #09c75b;
+    transition: 0.3s;
+}
+
+
+#chef-card {
+    gap: 20px;
+    border: 2px solid white;
+}
+
+
+#chef-card span{
+    background-color: #A1876A;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+#chef-card .price {
+    color: #A1876A;
+}
+
+
+#chef-card .reservation-btn {
+    background-color: #A1876A;
+}
+
+
+#chef-card .reservation-btn:hover {
+    background-color: #8f785e;
+}
+
+
+#gourmet-card span {
+    background-color: #F22637;
+}
+
+
+#gourmet-card .price {
+    color: #F22637;
+}
+
+
+#gourmet-card .reservation-btn {
+    background-color: #F22637;
+}
+
+
+#gourmet-card .reservation-btn:hover {
+    background-color: #f73646;
+}
+
+
+.price-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.price-container .price-info {
+    font-size: 1em;
+    transform: translateY(5px);
+    color: #F22637;
+}
+
+
+#chef-card .price-container .price-info {
+    color: #A1876A;
+}
