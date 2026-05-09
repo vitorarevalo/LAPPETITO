@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas L'Appetito</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/depoiment-form-section.css">
+    <link rel="stylesheet" href="css/reservation-form.css">
+</head>
+<body>
+    <section id="depoiment-form-sect">
+            <article class="depoiment-form-container">
+                <div class="form-first-sect">
+                    <img src="assets/imgs/logo.png" alt="" class="form-logo">
+                    <div class="mini-italian-flag">
+                        <div class="green-square"></div>
+                        <div class="white-square"></div>
+                        <div class="red-square"></div>
+                    </div>
+                    <h1>RESERVAS <span><span class="green">L’ AP</span>PET<span class="red">ITO</span></span></h1>
+                    <p>Preencha os dados para concluir sua reserva!</p>
+                </div>
+                <div class="form-sect">
+                    <form action="" class="reservation-form">
+                        <div class="form-step">
+                            <fieldset>
+                                <legend>Nome<span class="required"> *</span></legend>
+                                <input type="text" class="text-input" required>
+                            </fieldset>
+                            <fieldset class="tel-fieldset">
+                                <legend>Telefone<span class="required"> *</span></legend>
+                                <span class="country-numb">+55</span>
+                                <input type="tel" id="telefone" class="text-input tel-input" required placeholder="(XX)XXXXX-XXXX" maxlength="15">
+                            </fieldset>
+                        </div>
+
+                        <div class="form-step form-step2">
+                            <div class="selects-container">
+                                <div class="select">
+                                    <label>Experiência<span class="required"> *</span></label>
+                                    <select name="experiencia" id="experiencia" required>
+                                        <option value="" disabled selected>SELECIONE UMA EXPERIÊNCIA ⏷</option>
+                                        <option value="classica">Clássica</option>
+                                        <option value="gourmet">Gourmet</option>
+                                        <option value="chef">Chef</option>
+                                    </select>
+                                </div>
+                                <div class="select">
+                                    <label>Quantidade de pessoas<span class="required"> *</span></label>
+                                    <select name="pessoas" id="pessoas" required>
+                                        <option value="" disabled selected>SELECIONE O № DE PESSOAS ⏷</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="selects-container">
+                                <div class="select">
+                                    <label>Data<span class="required"> *</span></label>
+                                    <input type="date" name="data" id="data" required>
+                                </div>
+                                <div class="select">
+                                    <label>Horário<span class="required"> *</span></label>
+                                    <input type="time" name="horario" id="horario" required>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="submit-reservation">ENVIAR</button>
+                    </form>
+                </div>
+            </article>
+        </section>
+
+        <script src="js/inputs.js"></script>
+</body>
+</html>
