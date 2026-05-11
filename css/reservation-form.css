@@ -122,7 +122,7 @@ input, select {
     background-color: #F22637;
     border: none;
     outline: none;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .submit-reservation:hover {
@@ -130,4 +130,94 @@ input, select {
     transform: translateY(-5px);
     cursor: pointer;
     background-color: #f73a4a;
+}
+
+
+
+
+
+.confirm {
+    display: none; /* Muda para flex via JS */
+    z-index: 999;  /* Garante que fique por cima de tudo */
+
+    gap: 20px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    width: 650px;
+    height: 450px;
+    border-radius: 20px;
+    background-color: #2C2C2C;
+}
+
+
+.confirm p {
+    font-size: 1.5em;
+}
+
+
+.close-btn {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+
+.concluded-reservation {
+    font-weight: 900;
+    color: #00933F;
+}
+
+
+
+.return {
+    font-family: 'Montserrat';
+    font-size: 1em;
+    color: white;
+    text-decoration: underline;
+}
+
+
+.progress-bar {
+    width: 90%;
+    height: 15px;
+    border-radius: 50px;
+    background-color: #4B4B4B;
+}
+
+
+.progress-bar-stat {
+    width: 100%;
+    height: 15px;
+    border-radius: 50px;
+    background-color: #00933F;
+}
+
+
+.animate-progress {
+    animation: shrink 5s linear forwards;
+}
+
+@keyframes shrink {
+    from {
+        width: 100%;
+    }
+    
+    to {
+        width: 5%;
+    }
+}
+
+
+.close-btn {
+    transition: 0.3s;
+}
+
+
+.close-btn:hover {
+    opacity: 0.5;
+    transform: 0.3s;
+    cursor: pointer;
 }
