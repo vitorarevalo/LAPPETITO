@@ -1,0 +1,89 @@
+#location-sect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url(../assets/imgs/wood-background.png) no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+#location-container {
+    display: flex;
+    width: 90%;
+    height: 90%;
+    background-color: #1C1C1C;
+    border-radius: 15px;
+}
+
+
+.location-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50px;
+    gap: 30px;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: #1C1C1C;
+    border-radius: 15px 0 0 15px;
+}
+
+
+.location-info .mini-italian-flag {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 50px;
+}
+
+
+
+a.contact-link {
+    text-align: justify;
+    font-size: 1.1em;
+    font-family: 'Montserrat';
+    color: white;
+    margin: 0;
+    transition: 0.5s;
+}
+
+
+.location-img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    height: 100%;
+    background: url(../assets/imgs/map.png) no-repeat right;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+
+iframe {
+    width: 100%;
+    filter: contrast(100%) sepia(5%);
+}
+
+
+
+figcaption {
+    margin-left: 10px;
+    font-size: 1.2em;
+    font-family: 'Montserrat';
+    color: white;
+}
