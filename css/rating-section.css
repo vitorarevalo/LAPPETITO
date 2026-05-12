@@ -15,7 +15,7 @@
 #rating-container {
     display: flex;
     width: 90%;
-    height: 700px;
+    height: 400px;
     border-radius: 15px;
     background-color: #101010;
 }
@@ -99,7 +99,6 @@
 
 
 .depoiments-container {
-    /* background-color: red; */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;

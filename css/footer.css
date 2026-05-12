@@ -84,11 +84,33 @@ footer {
 }
 
 
+
+
 .link-collumn a {
+    position: relative;
     color: white;
     font-family: 'Montserrat';
     font-size: 1em;
     text-decoration: none;
+}
+
+
+.link-collumn a::before {
+    position: absolute;
+    content: '';
+    top: 1.4em;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    width: 0;
+    height: 0;
+    transition: 0.3s;
+}
+
+
+.link-collumn a:hover::before {
+    width: 50%;
+    height: 2px;
+    transition: 0.3s;
 }
 
 
