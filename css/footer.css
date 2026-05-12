@@ -1,6 +1,126 @@
 footer {
-    background-color: #ff0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #0A0A0A;
     width: 100%;
     min-height: 50vh;
-    z-index: 1000;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    width: 100%;
+    height: 30vh;
+    padding-bottom: 50px;
+}
+
+
+.copyright {
+    border-top: 2px solid white;
+    width: 90%;
+    height: 5vh;
+    padding: 10px;
+}
+
+
+.footer-content img {
+    width: 270px;
+    height: 270px;
+}
+
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.footer-text h3 {
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.footer-text p {
+    width: 500px;
+}
+
+
+.separate-div {
+    width: 2px;
+    height: 200px;
+    background-color: white;
+}
+
+.site-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.site-links h1,
+.contact-container h1 {
+    font-size: 2em;
+}
+
+
+.links-container {
+    display: flex;
+    gap: 30px;
+}
+
+.link-collumn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.link-collumn a {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 1em;
+    text-decoration: none;
+}
+
+
+.contact-info .info img {
+    width: 25px;
+    height: 25px;
+    image-rendering: crisp-edges;
+}
+
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.contact-info {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.contact-info .info {
+    display: flex;
+    text-align: start;
+    gap: 15px;
+}
+
+
+.copyright p span {
+    font-style: italic;
 }
