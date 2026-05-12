@@ -29,14 +29,27 @@
 }
 
 
-body, html {
-    height: 100%;
+
+
+html, body {
     width: 100%;
+    min-height: 100vh;
 }
 
 
 body {
+    display: flex;
+    flex-direction: column;
     overflow-x: hidden;
+}
+
+
+
+main {
+    position: relative;
+    display: block;
+    width: 100%;
+    
 }
 
 
@@ -47,15 +60,6 @@ p {
     color: white;
     margin: 0;
     transition: 0.5s;
-}
-
-
-
-main {
-    display: block;
-    width: 100vw;
-    height: 100%;
-    
 }
 
 

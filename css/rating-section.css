@@ -5,8 +5,8 @@
     flex-direction: column;
     gap: 30px;
     position: relative;
-    width: 100vw;
-    height: 130vh;
+    width: 100%;
+    min-height: 130vh;
     background-color: #171717;
     overflow: hidden;
 }

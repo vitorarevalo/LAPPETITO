@@ -1,7 +1,7 @@
 #menu-sect {
     position: relative;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    min-height: 100vh;
     background: url(../assets/imgs/wood-background.png) fixed no-repeat center;
     background-size: cover;
     overflow: hidden;
