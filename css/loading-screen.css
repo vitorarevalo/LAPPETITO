@@ -84,7 +84,7 @@
 
 .loading-progress-bar {
     width: 500px;
-    height: 15px;
+    height: 10px;
     border-radius: 50px;
     background-color: #242424;
 }
@@ -93,7 +93,7 @@
 .loading-progress {
     position: relative;
     width: 50px;
-    height: 15px;
+    height: 10px;
     border-radius: 50px;
     background-color: #A1876A;
     animation:
@@ -108,7 +108,7 @@
     background-color: #a1876a46;
     filter: blur(30px);
     width: inherit;
-    height: 15px;
+    height: 10px;
 }
 
 
