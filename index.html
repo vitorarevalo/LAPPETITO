@@ -13,9 +13,31 @@
     <link rel="stylesheet" href="css/cards-section.css">
     <link rel="stylesheet" href="css/location-section.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/loading-screen.css">
     <title>L' Appetito</title>
 </head>
 <body>
+    <div class="loading-screen">
+        <div class="spinner"></div>
+            <div class="loader">
+                <div class="words">
+                    <span class="word">Preparando os pratos...</span>
+                    <span class="word">Finalizando o molho da casa...</span>
+                    <span class="word">Deixando a massa descansar...</span>
+                    <span class="word">Selecionando os melhores ingredientes...</span>
+                    <span class="word">Pronto!</span>
+                </div>
+            </div>
+
+        <div class="loading-progress-bar">
+            <div class="loading-progress"></div>
+        </div>
+        <div class="mini-italian-flag">
+            <div class="green-square"></div>
+            <div class="white-square"></div>
+            <div class="red-square"></div>
+        </div>
+    </div>
     <header>
         <nav>
             <a href="#"><img src="assets/imgs/logo.png" alt="" class="nav-logo"></a>
@@ -604,5 +626,6 @@
 
 
     <script src="js/script.js"></script>
+    <script src="js/loading.js"></script>
 </body>
 </html>
