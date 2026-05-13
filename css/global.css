@@ -29,6 +29,22 @@
 }
 
 
+::selection {
+    background-color: #F22637;
+    color: #ffffff;
+}
+
+
+
+::-moz-selection {
+    background-color: #F22637;
+    color: #ffffff;
+}
+
+
+
+
+
 
 
 html, body {
@@ -37,11 +53,26 @@ html, body {
 }
 
 
+html {
+    background-color: black;
+}
+
+
 body {
     position: relative;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+}
+
+
+img {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+    -webkit-user-drag: none;
 }
 
 

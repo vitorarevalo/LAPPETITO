@@ -60,8 +60,10 @@
     width: 100%;
     height: 50vh;
     -ms-overflow-style: none;  
-    scrollbar-width: none; 
+    scrollbar-width: none;
 }
+
+
 
 
 .slider::-webkit-scrollbar {
@@ -75,7 +77,16 @@
     flex: 0 0 100vw;
     object-fit: contain;
     scroll-snap-align: center;
+    transition: 0.3s
+    
 }
+
+
+/* .dish:hover {
+    transform: translateY(-5px);
+    transition: 0.3s
+} */
+
 
 
 .slider-nav {
