@@ -96,3 +96,91 @@
     gap: 50px;
     flex-direction: column;
 }
+
+
+@media (max-width: 768px) {
+    .italian-flag {
+        height: 100px;
+        left: 5%;
+        top: 0;
+        margin-left: 10%;
+    }
+
+    .green-flag {
+        width: 45px;
+        height: 180px;
+    }
+
+    .white-flag {
+        width: 40px;
+        height: 130px;
+    }
+
+    .red-flag {
+        width: 30px;
+        height: 100px;
+    }
+
+
+    .huge-logo {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+    }
+
+    .about-text {
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+
+    .about-header {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        gap: 15px;
+    }
+
+
+    .about-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        width: 500px;
+        text-align: justify;
+    }
+
+
+    .about-icons {
+        width: 50px;
+    }
+
+
+    .about-container2 {
+        margin-left: 0px;
+    }
+
+
+    .about-container3 {
+        margin-left: 0px;
+    }
+
+
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}
