@@ -69,3 +69,79 @@
     height: 100px;
     background-color: #F22637;
 }
+
+#about-chef-sect .mini-italian-flag {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    #about-chef-sect {
+        flex-direction: column;
+    }
+
+    .chef-img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 50%;
+        
+    }
+
+    #about-chef-sect .mini-italian-flag {
+        display: flex;
+    }
+
+    .about-chef-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        width: 600px;
+        margin: 0;
+        padding: 0 30px 0 10px;
+    }
+
+
+    .chef-text {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0px;
+        width: 100%;
+    }
+
+
+    .chef-text p {
+        font-size: 1em;
+        width: 100%;
+    }
+
+
+
+    #chef-text-content2 {
+        margin-left: 0px;
+    }
+
+
+    #chef-text-content3 {
+        margin-left: 0px;
+    }
+
+
+    .green-rect {
+        display: none;
+    }
+
+
+    .white-rect {
+        display: none;
+    }
+
+
+    .red-rect {
+        display: none;
+    }
+
+}

@@ -220,7 +220,7 @@
 
     .border {
         position: absolute;
-        top: 60%;
+        top: 63%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 460px;
@@ -238,13 +238,6 @@
         font-size: 2em;
     }
 
-
-    #know-more-btn:hover {
-        transition: 0.3s;
-        cursor: pointer;
-        background-color: white;
-        color: black;
-    }
 
     .slider-nav {
         gap: 15px;
