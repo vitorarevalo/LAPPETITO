@@ -1,5 +1,7 @@
+let mm = gsap.matchMedia();
 
-gsap.from(".flag", {
+mm.add("(min-width: 1024px)", () => {
+  gsap.from(".flag", {
   y: 400,
   opacity: 0,
   stagger: 0.3,
@@ -216,3 +218,7 @@ gsap.from("#location-container", {
     scrub: true,
   }
 });
+
+  
+});
+
