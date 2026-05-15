@@ -100,49 +100,32 @@
 
 @media (max-width: 768px) {
     .italian-flag {
-        height: 100px;
-        left: 5%;
-        top: 0;
-        margin-left: 10%;
+        display: none;
     }
-
-    .green-flag {
-        width: 45px;
-        height: 180px;
-    }
-
-    .white-flag {
-        width: 40px;
-        height: 130px;
-    }
-
-    .red-flag {
-        width: 30px;
-        height: 100px;
-    }
-
 
     .huge-logo {
         position: absolute;
-        top: 30%;
+        top: 20%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 300px;
     }
 
     .about-text {
-        font-size: 1em;
+        font-size: 0.9em;
+        width: 300px;
     }
 
     h2 {
-        font-size: 1.2em;
+        font-size: 1em;
+        width: 400px;
     }
 
 
     .about-header {
         display: flex;
         flex-direction: column;
-        width: 500px;
+        width: 400px;
         gap: 15px;
     }
 
@@ -178,7 +161,7 @@
         align-items: center;
         gap: 50px;
         position: absolute;
-        top: 70%;
+        top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
     }

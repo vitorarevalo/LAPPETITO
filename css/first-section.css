@@ -170,7 +170,7 @@
 
 
 #know-more-btn {
-    display: inline-block;
+    display: flex;
     position: absolute;
     bottom: 20%;
     right: 5%;
@@ -203,19 +203,25 @@
 
 
 @media (max-width: 768px) {
+    #first-sect {
+        background: url(../assets/imgs/background-mobile.png) no-repeat center;
+    }
+
     #special-text {
-        transform: translate(-50%, -350%);
-        font-size: 5em;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -80%);
+        font-size: 3.5em;
     }
 
     .slider {
         bottom: 50%;
-        height: 30vh;
+        height: 25vh;
 
     }
 
     #dish-description {
-        font-size: 1em;
+        font-size: 0.9em;
     }
 
     .border {
@@ -223,7 +229,7 @@
         top: 63%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 400px;
+        width: 350px;
         height: 250px;
     }
 
@@ -231,6 +237,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        width: fit-content;
         height: 100px;
         top: 85%;
         left: 50%;
