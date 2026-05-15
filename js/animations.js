@@ -1,7 +1,6 @@
-let mm = gsap.matchMedia();
-
-mm.add("(min-width: 1024px)", () => {
-  gsap.from(".flag", {
+// let mm = gsap.matchMedia();
+if (window.innerWidth > 1024) {
+    gsap.from(".flag", {
   y: 400,
   opacity: 0,
   stagger: 0.3,
@@ -218,7 +217,13 @@ gsap.from("#location-container", {
     scrub: true,
   }
 });
+}
+
+
+
+// mm.add("(min-width: 1024px)", () => {
+  
 
   
-});
+// });
 
