@@ -118,12 +118,13 @@
     }
 
     h2 {
-        font-size: 1em;
+        font-size: 0.9em;
         width: 90%;
     }
 
 
     .about-header {
+        margin-top: 100px;
         display: flex;
         flex-direction: column;
         width: 90vw;
@@ -165,7 +166,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 50px;
+        gap: 20px;
         position: absolute;
         top: 60%;
         left: 50%;
