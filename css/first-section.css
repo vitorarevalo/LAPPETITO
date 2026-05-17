@@ -208,14 +208,14 @@
     }
 
     #special-text {
-        top: 25%;
+        top: 20%;
         left: 50%;
         transform: translate(-50%, -80%);
         font-size: 3.5em;
     }
 
     .slider {
-        bottom: 50%;
+        bottom: 55%;
         height: 25vh;
 
     }
@@ -226,7 +226,7 @@
 
     .border {
         position: absolute;
-        top: 63%;
+        top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 80%;
