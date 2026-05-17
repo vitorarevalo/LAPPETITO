@@ -121,6 +121,11 @@
 
 
 @media (max-width: 768px) {
+
+    #menu-sect {
+        background: url(../assets/imgs/wood-background.png) local no-repeat center;
+        background-size: cover;
+    }
     
     .menu-dish {
         padding-left: 0%;
