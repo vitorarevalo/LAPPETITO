@@ -134,9 +134,9 @@
 
     .menu-slider {
         position: absolute;
-        top: 0;
-        width: 100vw; 
-        height: 45vh;
+        
+        top: 5%;
+        height: 30vh;
     }
 
 
@@ -144,9 +144,14 @@
         display: none;
     }
 
+    #menu-sect h1 {
+        font-size: 2em;
+    }
+
 
     #menu-dish-description {
-        top: 45%;
+        
+        top: 40%;
         left: 10%;
         width: 80%;
     }
@@ -167,6 +172,10 @@
 
     .menu-slider-nav {
         bottom: 10px;
+    }
+
+    #premiumExclusive {
+        font-size: 0.9em;
     }
 
 }

@@ -109,7 +109,8 @@
         top: 20%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 50vw;
+        width: 300px;
+        height: 300px;
     }
 
     .about-text {
@@ -121,6 +122,12 @@
         font-size: 0.9em;
         width: 90%;
     }
+
+    .about-chef-content {
+        width: 90%;
+    }
+
+    
 
 
     .about-header {

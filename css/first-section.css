@@ -203,6 +203,8 @@
 
 
 @media (max-width: 768px) {
+    
+
     #first-sect {
         background: url(../assets/imgs/background-mobile.png) no-repeat center;
     }
@@ -226,6 +228,7 @@
 
     .border {
         position: absolute;
+        padding: 150px 0px;
         top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
