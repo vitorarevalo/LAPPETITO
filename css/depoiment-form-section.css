@@ -263,3 +263,55 @@ button.submit{
     cursor: pointer;
     background-color: #09c75b;
 }
+
+
+@media (max-width: 768px) {
+    .form-first-sect {
+        display: none;
+    }
+
+    .form-sect {
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    #form-header-h1 {
+        font-weight: 400;
+        font-size: 1.2em;
+    }
+
+    .form-header p {
+        font-size: 0.9em;
+    }
+
+    legend {
+        font-size: 0.9em;
+    }
+
+    .text-input {
+        font-size: 0.9em;
+    }
+
+    textarea {
+        font-size: 0.9em;
+    }
+
+    .textarea-fieldset {
+        min-height: 300px;
+        display: flex;
+    }
+
+    .rate {
+        font-size: 1.2em;
+        font-weight: 400;
+    }
+
+    .stars-rating input {
+        display: none;
+    }
+
+    button.submit{
+        font-size: 1.2em;
+    }
+
+}
