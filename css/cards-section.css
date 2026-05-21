@@ -19,6 +19,10 @@
     transform: translateY(50px);
 }
 
+.card-icons {
+    width: 35px;
+}
+
 
 .card {
     display: flex;
@@ -173,4 +177,48 @@
 
 #chef-card .price-container .price-info {
     color: #A1876A;
+}
+
+
+@media (max-width: 768px) {
+    #cards-sect {
+        padding: 30px 0;
+        flex-direction: column;
+    }
+
+    .sub-card {
+        transform: translateY(0px);
+    }
+
+    .card {
+        width: 90vw;
+        height: 700px;
+    }
+
+    .card-header span {
+        font-size: 0.8em;
+    }
+
+
+    .card h3 {
+        font-size: 1.5em;
+        font-weight: 100;
+    }
+
+    .card-info p {
+        font-size: 0.9em;
+    }
+
+    .price {
+        font-size: 1.5em;
+    }
+
+    .features-container {
+        gap: 20px;
+    }
+
+    .feature p {
+        font-size: 0.9em;
+    }
+
 }
